@@ -3,16 +3,7 @@ package no.hvl.dat100.jplab11.oppgave1;
 import no.hvl.dat100.jplab11.common.TODO;
 
 public abstract class Innlegg {
-	
-	// TODO - deklarering av objektvariable
 
-	// Hey Lads! !sdaL yeH
-	
-
-	// Hey Lads!
-	// test
-	// tesing 123 123
-// !sdaL yeH
 		private int id;
 		private String bruker;
 		private String dato;
@@ -69,7 +60,6 @@ public abstract class Innlegg {
 		if (innlegg.getId() == this.id) {
 			return true;
 		} else return false;
-
 	}
 	
 	@Override
