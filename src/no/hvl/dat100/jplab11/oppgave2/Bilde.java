@@ -5,6 +5,7 @@ import no.hvl.dat100.jplab11.common.TODO;
 public class Bilde extends Tekst {
 	
 	// TODO - objekt variable
+	// git test
 	
 	private String url;
 	
