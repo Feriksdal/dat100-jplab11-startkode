@@ -7,6 +7,7 @@ public abstract class Innlegg {
 	// TODO - deklarering av objektvariable
 	// Hey Lads!
 	// test
+	// tesing 123 123
 	public Innlegg() {
 		
 	}
