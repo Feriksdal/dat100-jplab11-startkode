@@ -5,8 +5,15 @@ import no.hvl.dat100.jplab11.common.TODO;
 public abstract class Innlegg {
 	
 	// TODO - deklarering av objektvariable
+
 	// Hey Lads! !sdaL yeH
 	
+
+	// Hey Lads!
+	// test
+	// tesing 123 123
+// !sdaL yeH
+
 	public Innlegg() {
 		
 	}
