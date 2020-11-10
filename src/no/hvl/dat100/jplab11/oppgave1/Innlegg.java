@@ -66,16 +66,15 @@ public abstract class Innlegg {
 	}
 	
 	public boolean erLik(Innlegg innlegg) {
-		
-		throw new UnsupportedOperationException(TODO.method());
+		if (innlegg.getId() == this.id) {
+			return true;
+		} else return false;
 
 	}
 	
 	@Override
 	public String toString() {
-		
-		throw new UnsupportedOperationException(TODO.method());
-				
+		return (id + "\n" + bruker + "\n" + dato + "\n" + likes + "\n");
 	}
 	
 	// Metoden nedenfor er kun for valgfri oppgave 6
