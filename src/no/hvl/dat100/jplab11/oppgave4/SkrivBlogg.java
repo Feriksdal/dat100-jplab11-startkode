@@ -9,7 +9,7 @@ import no.hvl.dat100.jplab11.oppgave3.*;
 public class SkrivBlogg {
 
 	public static boolean skriv(Blogg samling, String mappe, String filnavn) {
-
+		
 		throw new UnsupportedOperationException(TODO.method());
 	}
 }
