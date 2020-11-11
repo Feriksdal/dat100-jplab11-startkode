@@ -43,10 +43,8 @@ public class Blogg {
 
 	public boolean ledigPlass() {
 		
-			if(innleggtabell[nesteledig] == null) {
-				return true;
-			}
-		return false;
+		return nesteledig < innleggtabell.length;	
+		
 	}
 	
 	public boolean leggTil(Innlegg innlegg) {
