@@ -60,18 +60,6 @@ public class Blogg {
 	}
 	
 	public String toString() {
-//		2\n
-//		TEKST\n
-//		1\n
-//		Ole Olsen\n
-//		23-10-2019\n
-//		0\n
-//		en tekst\n
-//		BILDE\n
-//		2\n
-//		Oline Olsen\n
-//		24-10-2019\n
-//		0\net bilde\nhttp://www.picture.com/oo.jpg\n
 		
 		String svar = "" + innleggtabell.length + "\n";
 		
