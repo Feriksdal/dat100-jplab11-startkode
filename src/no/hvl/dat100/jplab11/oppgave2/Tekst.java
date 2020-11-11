@@ -36,17 +36,11 @@ public class Tekst extends Innlegg {
 
 	@Override
 	public String toString() {
-//		TEKST
-//		1
-//		Ole Olsen
-//		23-10-2019
-//		0
-//		en tekst
+
 		return ("TEKST\n" + super.getId() + "\n" + super.getBruker() + "\n" + super.getDato() + "\n" + super.getLikes() + "\n" + tekst + "\n");
 	
 	}
-	
-	// Metoden nedenfor er kun for valgfri oppgave 6
+
 	public String toHTML() {
 			
 		throw new UnsupportedOperationException(TODO.method());
